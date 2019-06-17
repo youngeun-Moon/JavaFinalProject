@@ -72,14 +72,6 @@ public class MergeFiles {
 		
 		  XSSFWorkbook workbook = new XSSFWorkbook();
 	        XSSFSheet sheet = workbook.createSheet("Final Project");
-	        /*Object[][] datatypes = {
-	                {"Datatype", "Type", "Size(in bytes)"},
-	                {"int", "Primitive", 2},
-	                {"float", "Primitive", 4},
-	                {"double", "Primitive", 8},
-	                {"char", "Primitive", 1},
-	                {"String", "Non-Primitive", "No fixed size"}
-	        };*/
 
 	        int rowNum = 0;
 	        System.out.println("Creating excel");
